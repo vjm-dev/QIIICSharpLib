@@ -11,4 +11,10 @@
 	<PackageTags>Quake3, QVM, Math, GameDev</PackageTags>
   </PropertyGroup>
 
+  <ItemGroup>
+	<Compile Remove="Q3CSharpLib.Tests\**" />
+	<EmbeddedResource Remove="Q3CSharpLib.Tests\**" />
+	<None Remove="Q3CSharpLib.Tests\**" />
+  </ItemGroup>
+
 </Project>
